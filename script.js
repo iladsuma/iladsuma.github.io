@@ -11,3 +11,8 @@ function toggleHiddenContent() {
     hiddenContent.style.display = "block";
   }
 }
+window.addEventListener('DOMContentLoaded', function() {
+  var bgm = document.getElementById('bgm');
+  bgm.play();
+});
+
